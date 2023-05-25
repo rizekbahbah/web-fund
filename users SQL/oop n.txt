@@ -1,0 +1,7 @@
+polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as if they are the same type of objects.it's a great way to write more flexible and reusable code.  
+
+
+Let's say you have a program that needs to process several different types of shapes, like circles, squares, and triangles. 
+You could define a Shape class with a method called "calculateArea", and then define separate Circle, Square, and Triangle classes that inherit from the Shape class and implement their own versions of the "calculateArea" method.
+ Then, you could create an array of Shape objects, fill it with instances of each of the different shape classes, and call the "calculateArea" method on each of them.
+ This way, you can treat all of the different shapes as if they are just Shapes, even though they are actually different classes!

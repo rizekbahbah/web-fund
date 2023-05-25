@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EasyBay.css">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+    <!--White Space-->
+    <div class="whiteSpace"></div>
+
+    <div class="midBody">
+
+        <!--Top bar with search-->
+        <div class="topBar">
+            
+            <!--Icon-->
+            <img class="leafIcon" src="leaf.png" alt="Leaf Icon">
+
+            <!--pageTitle-->
+            <h1 class="pageTitle">EasyBay</h1>
+
+            <!--SearchBar-->
+            <input style='display: inline-block' onclick="clearSearch()" onmouseout="returnFiller()" id="search" type="search" value="Search for Anything">
+
+
+            <!--Sign In link-->
+            <a class="signIn" href="">Sign In</a>
+
+            <!--Linked cart icon-->
+            <a onclick="alert('Your Cart is Empty')" class="cartHolder" href=""><img class="cart" src="cart-dark.png" alt="Cart Icon"></a>
+        </div>
+
+        <!--Linked List of plant pages-->
+        <ul class="succList">
+            <li><a class="succ" href="https://www.codingdojo.com/">Aeonium</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">Andormischus</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">Agave</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">Aloe</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">Anacampseros</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">Aristaloe</a></li>
+            <li><a class="succ" href="https://www.codingdojo.com/">More...</a></li>
+        </ul>
+
+
+        <!--contentTitle-->
+        <h1 class="contentTitle">Your Source for Serious Succulent Specialties</h1>
+
+        <!--content holed for top dispplay-->
+        <div class="topContent">
+
+            <!--Left Content holder-->
+            <div class="leftTop">
+                <p class="subContent">Discover succ-ulent varieties one pot or rack at a time!</p>
+                <a class="contentLink1" href="https://www.codingdojo.com/">Discover <img class="arrow1" src="arrow-light.png" alt="Right Arrow"></a>
+            </div>
+
+            <!--Main image-->
+            <img onmouseover="changeImg()" onmouseout="returnImg()" id="mainImg" src="succulents-1.jpg" alt="Succukents 1 Image">
+
+            <!--Right content holder-->
+            <div class="rightTop">
+
+                <!--Right Image-->
+                <img class="sideImg" src="aloe-m.jpg" alt="Aloe">
+
+                <!--Soothing ALoe link-->
+                <a class="contentLink2" href="https://www.codingdojo.com/">Soothing Aloe <img class="arrow2" src="arrow-light.png" alt="Right Arrow"></a>
+            </div>
+        </div>
+
+        <!--Image Bar-->
+        <div class="bottomContent">
+
+            <!--bottomImage1-->
+            <div class="imgBox">
+                <img class="img" src="aeonium-s.jpg" alt="Aeonium">
+                <p class="imgCapt">Aeonium</p>
+            </div>
+
+            <!--bottomImage2-->
+            <div class="imgBox">
+                <img class="img" src="aloe-s.jpg" alt="Aloe">
+                <p class="imgCapt">Aloe</p>
+            </div> 
+
+            <!--bottomImage3-->
+            <div class="imgBox">
+                <img class="img" src="cactus-s.jpg" alt="Cactus">
+                <p class="imgCapt">Cactus</p>
+            </div>
+
+            <!--bottomImage4-->
+            <div class="imgBox">
+                <img class="img" src="cactus-s.jpg" alt="Cactus">
+                <p class="imgCapt">Cactus</p>
+            </div>
+
+            <!--bottomImage5-->
+            <div class="imgBox">
+                <img class="img" src="sedum-s.jpg" alt="Sedum">
+                <p class="imgCapt">Sedum</p>
+            </div>
+
+            <!--bottomImage6-->
+            <div class="imgBox">
+                <img class="img" src="sempervivum-s.jpg" alt="Sempervivum">
+                <p class="imgCapt">Sempervivum</p>
+            </div>
+        </div>
+
+        <div id="popUp">
+            <img class="popUpImg" src="alert-dark.png" alt="alert">
+            <p class="popUpMsg">This site makes use of third-party cookies, by clicking "I Accept" you agree to the terms outlined in our <a href="https://www.codingdojo.com/">cookie policy</a>.</p>
+            <button onclick="hidePopUp()" class="popUpButton" type="button" value="I Accept">I Accept</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <!--White Space-->
+    <div class="whiteSpace"></div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

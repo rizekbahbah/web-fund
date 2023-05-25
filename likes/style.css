@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.nav-container {
+    display: flex;
+    flex: 1 0 auto;
+    height: 40px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.feedBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 150px;
+}
+
+.left-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.img_profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+a.change-profile-pic {
+    margin-top: 10px;
+}
+
+.profile-name {
+    margin-top: 10px;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-left: 20px;
+}
+
+.right-box2 {
+    flex: 1 0 auto;
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.right-box3 {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+p.like-box {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: end;
+}
+
+p.text-info {
+    flex: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.btn_like {
+    width: 60px;
+    height: 25px;
+    background-color: gold;
+    box-shadow: 4px 4px black;
+}

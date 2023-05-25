@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <h2>Network</h2>
+        </div>
+        <div class="feedBox">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="main">
+            <div class="left">
+
+                <div class="left-box1">
+                    <img src="user-circle (1).png" alt="user image" class="img_profile-pic" id="img_gen-user">
+                    <a href="#" class="change-profile-pic" onclick="addAvatar()">Add an Avatar</a>
+                    <h3 class="profile-name">Toshiro Mifune</h3>
+                </div>
+            </div>
+            <div class="right">
+
+                <div class="right-box2">
+                    <div class="right-box3">
+                        <h3>Neal M</h3>
+                        <label for="btn1"><span id="label_btn1">9</span> like(s)</label>
+                        <input type="button" value="like" name="btn1" id="btn1" class="btn_like"
+                            onclick="addLike(this)">
+                    </div>
+                    <p class="text-info">I just set up this discord bot, let me know what you all think. <a
+                            href="#">link</a></p>
+                </div>
+
+                <div class="right-box2">
+                    <div class="right-box3">
+                        <h3 class="profile-name">Nichole K</h3>
+                        <label for="btn2"><span id="label_btn2">12</span> like(s)</label>
+                        <input type="button" value="like" name="btn2" id="btn2" class="btn_like"
+                            onclick="addLike(this)">
+                    </div>
+                    <p class="text-info">Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+
+                <div class="right-box2">
+                    <div class="right-box3">
+                        <h3 class="profile-name">Jim R</h3>
+                        <label for="btn3"><span id="label_btn3">9</span> like(s)</label>
+                        <input type="button" value="like" name="btn3" id="btn3" class="btn_like"
+                            onclick="addLike(this)">
+                    </div>
+                    <p class="text-info">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

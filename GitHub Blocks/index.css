@@ -1,0 +1,65 @@
+.container {
+
+    background-color: rgb(233, 237, 242);
+
+    width: 900px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    text-align: center;
+    display: block;
+    height: 50px;
+    background-color: rgb(233, 237, 242);
+    margin: 10px;
+
+}
+
+.footer {
+
+    text-align: center;
+    display: block;
+    height: 30px;
+    background-color: rgb(233, 237, 242);
+    margin: 10px;
+
+
+
+}
+
+.one,
+.two,
+.three {
+
+    display: flex;
+
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.one {
+
+    background-color: rgb(83, 191, 254)
+}
+
+
+.two {
+    background-color: rgb(182, 146, 170);
+
+}
+
+.three {
+    background-color: rgb(252, 252, 255);
+}
+
+img {
+    background-color: white;
+}

@@ -1,0 +1,23 @@
+INSERT INTO dojos (name)
+VALUES ("texas"), ("box"),("ball");
+
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM dojos;
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("Alex","Dana",39,4),("Amir","Jack",34,4),("Roua","Mina",30,4);
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("Maria","Gabi",37,5),("Teddy","Dina",36,5),("Samir","Fadi",29,5);
+
+INSERT INTO ninjas (first_name,last_name,age,dojo_id)
+VALUES ("kareem","Hakim",54,6),("Rizek Bahbah","Olive",65,6),("Micheal","Sami",26,6);
+
+SELECT * FROM dojos
+WHERE dojos.id = 1;
+
+SELECT * FROM dojos
+	WHERE dojos.id = 3;
+    
+SELECT * FROM dojos
+WHERE dojos.id =3;
